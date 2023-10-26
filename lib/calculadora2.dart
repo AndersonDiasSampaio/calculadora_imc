@@ -53,6 +53,11 @@ class _calculadora2State extends State<calculadora2> {
         infoText="Obesidade II (severa)";
 
       });
+    }else{
+      setState(() {
+        infoText="Obesidade III (severa)";
+
+      });
     }
   }
   @override
@@ -80,7 +85,7 @@ class _calculadora2State extends State<calculadora2> {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               Icon(
-                Icons.person_3_rounded,
+                Icons.emoji_people,
                 size: 120,
                 color: Colors.black,
               ),
